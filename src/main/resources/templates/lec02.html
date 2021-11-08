@@ -8,7 +8,20 @@
 
 <body>
   <h1>Lec02 GET!</h1>
-  Hi [[${user}]]
+
+  <p>
+  <div>
+    <a href="step2">ぐー</a>
+    <a href="step3">ちょき</a>
+    <a href="step4">ぱー</a>
+    <div>
+      </p>
+      <div th:if="${result2}">
+        あなたの手：[[${userhand}]]<br />
+        相手の手：[[${cpuhand}]]<br />
+        結果：[[${result2}]]<br />
+      </div>
+
 </body>
 
 </html>
